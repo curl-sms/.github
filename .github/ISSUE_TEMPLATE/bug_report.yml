@@ -1,0 +1,33 @@
+name: Bug report
+description: Something in this repository does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Redact API keys and phone numbers. The SMS `id` and the error `code` are enough for us to look things up.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: Code or commands, ideally with a test key (`cs_test_…`).
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Package or action version and runtime, e.g. `curl-sms 1.0.0, Python 3.12`.
+    validations:
+      required: true
+  - type: input
+    id: sms-id
+    attributes:
+      label: SMS id or error code (optional)
+      placeholder: 01JDQ8M3V6R1T5ZK2X9N4C7B0A / invalid_receiver
