@@ -5,7 +5,7 @@
 
 **curl-sms is an SMS API for developers.** Send a text message from scripts, servers, smart homes, CI pipelines and AI assistants with a single HTTPS request. Live in five minutes, 5 free SMS per month, no payment details needed.
 
-[Website](https://curl-sms.com) · [Docs](https://curl-sms.com/docs) · [API reference](https://curl-sms.com/docs/api) · [Pricing](https://curl-sms.com/pricing) · [Guides](https://curl-sms.com/sms-api)
+[Website](https://curl-sms.com) · [Docs](https://curl-sms.com/docs) · [API reference](https://curl-sms.com/docs/api) · [Pricing](https://curl-sms.com/pricing) · [Integrations](https://curl-sms.com/integrations) · [Guides](https://curl-sms.com/sms-api)
 
 ```sh
 curl -X POST https://curl-sms.com/api/sms/send \
@@ -25,6 +25,8 @@ Test keys (`cs_test_…`) run every check, send nothing and cost nothing. Swap i
 | **[curl-sms-node](https://github.com/curl-sms/curl-sms-node)** | Official Node.js / TypeScript client · `npm install curl-sms` |
 | **[send-sms](https://github.com/curl-sms/send-sms)** | GitHub Action: SMS when a deploy fails or a release ships |
 | **[curl-sms-mcp](https://github.com/curl-sms/curl-sms-mcp)** | Connect Claude, ChatGPT, Cursor and other AI assistants via MCP |
+
+Also available as a [Synology app](https://curl-sms.com/docs/nas-app) and as a [self-hosted bridge for Docker](https://curl-sms.com/docs/bridge). Overview: [all integrations](https://curl-sms.com/integrations).
 
 ### Why curl-sms
 
